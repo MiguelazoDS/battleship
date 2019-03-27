@@ -63,7 +63,7 @@ Barco:: Barco(int l, string TB)
    I=TB;
    if(I!="SUBMARINO")
    {
-      cout<<"Indique H para posicionar el "<<I<<"\nhorizintalmente o V para posicionarlo verticalmente: ";
+      cout<<"Indique H para posicionar el "<<I<<"\nhorizontalmente o V para posicionarlo verticalmente: ";
       cin>>HoV; verif_hov(&HoV);
       cout<<"Indique la posicion (fila y columna) del "<<I<<" : "<<endl;
 	  posicionar(l, HoV); 
